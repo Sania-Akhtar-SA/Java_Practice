@@ -4,7 +4,7 @@ public class Armstrong {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int num,rem,temp,sum=0;
-        System.out.println("Enter the number to check it is armstrong or not:");
+        System.out.println("Enter the number to check whether it is armstrong or not:");
         num=in.nextInt();
         temp=num;
         while(num!=0){

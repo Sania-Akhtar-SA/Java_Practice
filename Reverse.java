@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class Palindrome {
+public class Reverse {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int num,rem,temp,sum=0;
-        System.out.println("Enter the number to check whether it is palindrome or not:");
+        System.out.println("Enter the number to find its reverse:");
         num=in.nextInt();
         temp=num;
         while(num!=0){
@@ -12,9 +12,6 @@ public class Palindrome {
             sum = sum*10+rem;;
             num/=10;
         }
-        if(sum == temp)
-        System.out.println("Palindrome Number");
-        else
-        System.out.println("Not a Palindrome Number");
+        System.out.println("Reverse of the number "+temp+" is "+sum);
     }
 }
