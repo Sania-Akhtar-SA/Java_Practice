@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Buzz {
     public static void main(String[] args) {
-         Scanner in =new Scanner(System.in);
+        Scanner in =new Scanner(System.in);
         int num,rem,div;
         System.out.println("Enter the number to check whether it is spy or not:");
         num=in.nextInt();

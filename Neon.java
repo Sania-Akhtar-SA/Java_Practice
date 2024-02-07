@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class Neon {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int num,sq,d=1,rem,sum=0,l;
-        String str;
+        int num,sq,rem,sum=0;
         System.out.println("Enter the number to check whether it is neon or not:");
         num=in.nextInt();
         sq=num*num;

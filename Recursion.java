@@ -6,10 +6,12 @@ public class Recursion {
         int num,fact;
         System.out.println("Enter the number to calculate its factorial:");
         num=in.nextInt();
+        // Recursion obj=new Recursion();
+        // fact=obj.sum(num);
         fact=sum(num);
         System.out.println(fact);
     }
-    public static int sum(int i){
+    static int sum(int i){
         if(i>0){
             return i * sum(i-1);
         }

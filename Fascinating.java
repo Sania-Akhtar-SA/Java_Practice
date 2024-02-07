@@ -29,5 +29,5 @@ public class Fascinating {
         else 
         System.out.println("Not a Fascinating Number");
         
-     }
+    }
 }
