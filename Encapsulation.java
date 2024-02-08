@@ -1,5 +1,5 @@
 public class Encapsulation {
-    int x;
+    private int x;
     public int getvalue(){
         return x;
     }
