@@ -18,7 +18,7 @@ class Strawberry extends Fruits{
 public class Polymorphism {
     public static void main(String[] args) {
         Fruits f = new Fruits();
-        Mango m = new Mango();
+        Fruits m = new Mango();
         Strawberry s = new Strawberry();
         f.Taste();
         m.Taste();
